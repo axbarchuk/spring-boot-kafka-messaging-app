@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringBootKafkaMessagingAppApplication
+class KafkaMessagingApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringBootKafkaMessagingAppApplication>(*args)
+	runApplication<KafkaMessagingApplication>(*args)
 }
