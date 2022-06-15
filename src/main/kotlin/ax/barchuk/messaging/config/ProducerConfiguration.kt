@@ -28,7 +28,7 @@ class ProducerConfiguration {
     @Bean
     fun producerConfigurations(): Map<String, Any> {
         return mapOf(
-            ProducerConfig.BOOTSTRAP_SERVERS_CONFIG to "localhost:9092",
+            ProducerConfig.BOOTSTRAP_SERVERS_CONFIG to "pkc-2396y.us-east-1.aws.confluent.cloud:9092",
             ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG to StringSerializer::class, 
             ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG to JsonSerializer::class
         )
